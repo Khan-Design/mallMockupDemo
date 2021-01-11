@@ -1,0 +1,16 @@
+.floors {
+  width: 60%;
+  background-color: #fabaa1;
+}
+
+.item {
+  display: flex !important;
+  flex: 1 1 auto !important;
+  cursor: pointer;
+  padding: 4px !important;
+}
+
+.floorMap {
+  width: 100%;
+  opacity: 1 !important;
+}

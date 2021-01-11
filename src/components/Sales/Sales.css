@@ -1,0 +1,43 @@
+.header {
+  position: relative;
+}
+.Sales {
+  display: flex !important;
+  justify-content: center;
+  align-content: center;
+}
+
+.divider {
+  height: 1px;
+  border: solid 1px gray;
+  margin: 8px;
+}
+
+.description {
+  margin-top: 24px;
+}
+
+.campaign {
+  display: flex;
+}
+.modal {
+  position: fixed !important;
+}
+
+.image {
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+  align-self: flex-start;
+}
+
+.fixedBtn {
+  position: fixed;
+  top: 5px;
+}
+
+.circular {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
