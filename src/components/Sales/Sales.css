@@ -19,6 +19,7 @@
 
 .campaign {
   display: flex;
+  z-index: 3;
 }
 .modal {
   position: fixed !important;

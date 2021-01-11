@@ -1,12 +1,10 @@
-.components {
+.search {
+  align-self: flex-start;
+  flex-grow: 1;
   margin: 100px 100px;
   display: flex;
   align-content: space-between;
   justify-content: space-around;
-}
-.search {
-  align-self: flex-start;
-  flex-grow: 1;
 }
 
 .lang {
@@ -22,6 +20,7 @@
 }
 
 .app {
+  height: 110%;
   background: rgb(242, 69, 0);
   background: -moz-linear-gradient(
     0deg,
@@ -38,5 +37,4 @@
     rgba(242, 69, 0, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f24500",endColorstr="#ffffff",GradientType=1);
 }

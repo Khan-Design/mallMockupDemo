@@ -9,17 +9,15 @@ const App = () => {
   return (
     <div className="app">
       <header>
-        <Sales />
         <div className="lang">
           <Language />
         </div>
       </header>
-
-      <div className="components">
-        <div className="search">
-          <SearchBar />
-        </div>
+      <Sales />
+      <div className="search">
+        <SearchBar />
       </div>
+
       <div className="floorButtons">
         <Floors />
       </div>
